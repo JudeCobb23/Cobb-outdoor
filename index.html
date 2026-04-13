@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cobb Outdoor Services</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #1f2933;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #d1d5db;
+    }
+    section {
+      max-width: 900px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #1f2933;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      background: white;
+      margin-bottom: 0.75rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .contact-form {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-top: 0.4rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      margin-top: 1.5rem;
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #1d4ed8;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #1f2933;
+      color: #d1d5db;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cobb Outdoor Services</h1>
+    <p>Professional Pressure Washing & Yard Work You Can Trust</p>
+  </header>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      Cobb Outdoor Services provides reliable, affordable outdoor maintenance.
+      We specialize in pressure washing and general yard work to keep your home
+      or business looking its best.
+    </p>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Pressure Washing (Driveways, Sidewalks, Patios, Siding)</li>
+      <li>Lawn Mowing & Trimming</li>
+      <li>Leaf Removal</li>
+      <li>General Yard Cleanup</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Request a Quote</h2>
+    <div class="contact-form">
+      <!-- Form submission can be connected later (Formspree, Netlify, backend, etc.) -->
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us what you need" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Cobb Outdoor Services. All rights reserved.
+  </footer>
+
+</body>
+</html>
